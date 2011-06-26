@@ -1,0 +1,11 @@
+TO-DO
+
+- set up Aptana Studio 3 to use github
+- make use of: HTML5 Boilerplate, Jekyll
+- search for grid-system or build my own
+
+- build personal home page with following sections: photography, design (posters and sites), music and cookery
+  + section photography: merge the pages /blog.html and /model/ into /photography/
+  + section design: build cubbi.es like gallery with flyers, gigposters and website screenshots
+  + section music: integrate last.fm and soundcloud
+  + section cookery: build recipe archive, inspiration: http://www.een.be/programmas/dagelijkse-kost/recepten
