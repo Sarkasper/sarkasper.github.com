@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+:focus {outline: 0;}
+/* content */
+body {
+	background: #fff url(http://kaspermenten.free.fr/anc/emptyhead.png) no-repeat fixed center center;
+	}
+body, a {
+	color: #444;
+	text-decoration: none;
+	}
+p {
+	position: fixed;
+	bottom: 50%;
+	right: 50%;
+	}
+p.chat {
+	margin-bottom: 28px;
+	margin-right: -47px;
+	}
+p.links {
+	background-color: rgba(225, 225, 225, 0.5);
+	margin-bottom: -60px;
+	margin-right: -54px;
+	padding: 2px;
+	font-size: 0.7em;
+	}
