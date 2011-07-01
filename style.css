@@ -14,7 +14,7 @@ blockquote, q {quotes: none;}
 :focus {outline: 0;}
 /* content */
 body {
-	background: #fff url(http://kaspermenten.free.fr/anc/emptyhead.png) no-repeat fixed center center;
+	background: #fafcfc url(http://kaspermenten.free.fr/anc/emptyhead.png) no-repeat fixed center center;
 	}
 body, a {
 	color: #444;
@@ -30,9 +30,10 @@ p.chat {
 	margin-right: -47px;
 	}
 p.links {
-	background-color: rgba(225, 225, 225, 0.5);
+	background-color: #f0f0f0;
 	margin-bottom: -60px;
 	margin-right: -54px;
 	padding: 2px;
 	font-size: 0.7em;
 	}
+a:hover {color: #000;}
