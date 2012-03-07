@@ -6,6 +6,7 @@
 	border: 0;
 	outline: 0;
 	font-size: 100%;
+	text-align: center;
 	vertical-align: baseline;
 	}
 body {line-height: 1;}
@@ -14,15 +15,11 @@ blockquote, q {quotes: none;}
 :focus {outline: 0;}
 /* content */
 body {
-	background: #fafcfc url(http://dl.dropbox.com/u/4776753/schimmel.jpg) no-repeat fixed bottom left;
+	background: #0f0f0f url(http://dl.dropbox.com/u/4776753/schimmel.jpg) no-repeat fixed bottom left;
 	}
 body, a {
-	color: #444;
+	color: #e6e6e6;
 	text-decoration: none;
 	}
-p {
-	position: fixed;
-	top: 13px;
-	right: 13px;
-	}
+p {margin: 25% 0;}
 a:hover {color: #000;}
