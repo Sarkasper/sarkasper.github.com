@@ -22,18 +22,7 @@ body, a {
 	}
 p {
 	position: fixed;
-	bottom: 50%;
-	right: 50%;
-	}
-p.chat {
-	margin-bottom: 28px;
-	margin-right: -47px;
-	}
-p.links {
-	background-color: #f0f0f0;
-	margin-bottom: -60px;
-	margin-right: -54px;
-	padding: 2px;
-	font-size: 0.7em;
+	top: 13px;
+	right: 13px;
 	}
 a:hover {color: #000;}
