@@ -22,8 +22,10 @@ body, a {
 	text-decoration: none;
 	}
 p {
-	margin: 25% 0;
-	background: #0F0F0F;
-	padding: 1px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #0f0f0f;
+	padding: 3px 1px;
 	}
 a:hover {color: #000;}
