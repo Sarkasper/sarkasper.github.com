@@ -21,5 +21,9 @@ body, a {
 	color: #e6e6e6;
 	text-decoration: none;
 	}
-p {margin: 25% 0;}
+p {
+	margin: 25% 0;
+	background: #0F0F0F;
+	padding: 1px;
+	}
 a:hover {color: #000;}
