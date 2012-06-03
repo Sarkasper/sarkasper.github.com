@@ -6,7 +6,6 @@
 	border: 0;
 	outline: 0;
 	font-size: 100%;
-	text-align: center;
 	vertical-align: baseline;
 }
 body {
@@ -21,25 +20,20 @@ blockquote, q {
 :focus {
 	outline: 0;
 }
+.hidden {
+	display: none;
+}
 /* content */
 body {
-	background: #0f0f0f url(http://dl.dropbox.com/u/4776753/schimmel.jpg) no-repeat fixed bottom left;
+	background: #0f0f0f url(http://dl.dropbox.com/u/4776753/web/schimmel.jpg) no-repeat fixed bottom left;
+	font-variant: small-caps;
 }
 body, a {
-	color: #e6e6e6;
+	color: #999;
 	text-decoration: none;
-}
-p {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	padding: 1px 3px;
 }
 a:hover {
 	color: #000;
-}
-.hidden {
-	display: none;
 }
 ul {
 	position: fixed;
@@ -48,14 +42,74 @@ ul {
 	padding: 1px 3px;
 }
 li {
-	background: #fafcfc;
-	color: #444444;
+	background: #e6e6e6;
+	color: #444;
 	text-transform: uppercase;
 	padding: 7px;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
 }
 .pub {
 	position: fixed;
 	top: 0;
 	left: 0;
 	padding: 26px 7px 3px;
+}
+.pub ul {
+	top: 250px;
+}
+.ctrl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 26px 7px 3px;
+}
+.ctrl ul {
+	top: 575px;
+}
+.ctrl p {
+	min-height: 48px;
+	padding-left: 48px;
+}
+.god {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 7px;
+}
+.sidenote {
+	font-size: smaller;
+}
+.mug {
+	background: #fff;
+	width: 140px;
+	height: 215px;
+	padding: 7px;
+}
+.control {
+	position: fixed;
+	top: 0;
+	left: 175px;
+	padding: 26px 7px 3px;
+}
+.intro {
+	padding: 7px  0 26px 0 !important;
+	min-height: 0 !important;
+}
+.ban img {
+	vertical-align: middle;
+}
+.home {
+	background: url(http://dl.dropbox.com/u/4776753/web/house.png) no-repeat;
+}
+.sidenote {
+	background: url(http://dl.dropbox.com/u/4776753/web/map.png) no-repeat;
+}
+.mail {
+	background: url(http://dl.dropbox.com/u/4776753/web/envelope.png) no-repeat;
+}
+.phone {
+	background: url(http://dl.dropbox.com/u/4776753/web/ipad.png) no-repeat;
 }
