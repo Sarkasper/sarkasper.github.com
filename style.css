@@ -90,9 +90,11 @@ sup {
 }
 .control {
 	position: fixed;
-	top: 0;
+	top: 19px;
 	left: 175px;
-	padding: 26px 7px 3px;
+	padding: 7px 7px 3px;
+	background: #e6e6e6;
+	color: #444;
 }
 .intro {
 	padding: 7px  0 26px 0 !important;
