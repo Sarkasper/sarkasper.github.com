@@ -41,7 +41,7 @@ ul {
 	left: 0;
 	padding: 1px 3px;
 }
-li {
+li, .control {
 	background: #e6e6e6;
 	color: #444;
 	text-transform: uppercase;
@@ -93,8 +93,6 @@ sup {
 	top: 19px;
 	left: 175px;
 	padding: 7px 7px 3px;
-	background: #e6e6e6;
-	color: #444;
 }
 .intro {
 	padding: 7px 0 26px 0 !important;
