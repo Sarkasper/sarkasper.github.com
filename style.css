@@ -36,34 +36,24 @@ a:hover {
 	color: #000;
 }
 ul {
-	position: fixed;
-	top: 0;
-	left: 0;
 	padding: 1px 3px;
 }
 li, .control {
 	background: #e6e6e6;
 	color: #444;
 	text-transform: uppercase;
-	padding: 7px;
 }
 sup {
 	vertical-align: super;
 	font-size: smaller;
 }
 .pub {
-	position: fixed;
-	top: 0;
-	left: 0;
 	padding: 26px 7px 3px;
 }
 .pub ul {
 	top: 250px;
 }
 .ctrl {
-	position: fixed;
-	top: 0;
-	left: 0;
 	padding: 26px 7px 3px;
 }
 .ctrl ul {
@@ -73,39 +63,40 @@ sup {
 	min-height: 48px;
 	padding-left: 48px;
 }
-.god {
+li, .control, .god, .mug {
+	padding: 7px;
+}
+.god, .control, .ctrl, .pub, ul {
 	position: fixed;
+}
+.ctrl, .pub, ul {
+	top: 0;
+	left: 0;
+}
+.god {
 	bottom: 0;
 	right: 0;
-	padding: 7px;
 }
 .sidenote {
 	font-size: smaller;
+	background: url(http://dl.dropbox.com/u/4776753/web/map.png) no-repeat;
 }
 .mug {
 	background: #fff;
 	width: 140px;
 	height: 215px;
-	padding: 7px;
 }
 .control {
-	position: fixed;
 	top: 19px;
 	left: 175px;
-	padding: 7px 7px 3px;
+	text-transform: none !important;
 }
 .intro {
 	padding: 7px 0 26px 0 !important;
 	min-height: 0 !important;
 }
-.ban img {
-	vertical-align: middle;
-}
 .home {
 	background: url(http://dl.dropbox.com/u/4776753/web/house.png) no-repeat;
-}
-.sidenote {
-	background: url(http://dl.dropbox.com/u/4776753/web/map.png) no-repeat;
 }
 .mail {
 	background: url(http://dl.dropbox.com/u/4776753/web/envelope.png) no-repeat;
