@@ -24,8 +24,11 @@ blockquote, q {
 	display: none;
 }
 /* content */
+html {
+	background: #0f0f0f no-repeat bottom left fixed;
+	background-size: cover;
+}
 body {
-	background: #0f0f0f url(http://dl.dropbox.com/u/4776753/web/schimmel.jpg) no-repeat fixed bottom left;
 	font-variant: small-caps;
 }
 body, a {
