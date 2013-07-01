@@ -1,14 +1,24 @@
-TO-DO
+Credits:
+--------
+- grid: http://www.getskeleton.com/
+- icons: http://weloveiconfonts.com/
+- sliding: http://stolksdorf.github.io/Parallaxjs/
+- animation: http://daneden.me/animate/
+- exif: http://www.flickr.com/services/api/
+- colour schemes: http://www.colorblender.com/
 
-- search for grid-system or build my own
-? make use of: HTML5 Boilerplate, Jekyll
-
-- build personal home page with following sections: photography, design (posters and sites), music and cookery
+TO-DO:
+------
+- build personal home page with following sections: photography, design, ...
   + section photography: merge the pages /blog.html and /model/ into /photography/
     * [DONE] blog is now journal
     * [TODO] add link to information for models
-  + section design: build cubbi.es like gallery with flyers, gigposters and website screenshots
-  + section music: integrate ?last.fm and soundcloud
+  + section design: gallery with flyers, gigposters ...
+  
+next section is not necessary?
+  ? section music: integrate ?last.fm and soundcloud
     * [TODO] make some goddamn music!
-  + section cookery: build recipe archive, inspiration: http://www.een.be/programmas/dagelijkse-kost/recepten
+    
+next section is moved to doomityourself.org/wiki/
+  + build recipe archive, inspiration: http://www.een.be/programmas/dagelijkse-kost/recepten
     * [TODO] write down recipes
