@@ -489,3 +489,9 @@ label span, legend span {
 	margin-bottom: 20px !important;
 }
 
+#rotatingText {
+	padding-right: 3px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
